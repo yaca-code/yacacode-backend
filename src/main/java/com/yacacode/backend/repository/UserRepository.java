@@ -1,9 +1,9 @@
-package com.ph.ponto.repository;
+package com.yacacode.backend.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.ph.ponto.models.User;
+import com.yacacode.backend.models.User;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;

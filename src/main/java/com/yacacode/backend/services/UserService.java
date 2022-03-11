@@ -1,4 +1,4 @@
-package com.ph.ponto.services;
+package com.yacacode.backend.services;
 
 import java.awt.image.BufferedImage;
 import java.io.*;
@@ -7,11 +7,11 @@ import java.util.*;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.ph.ponto.config.AwsTools;
-import com.ph.ponto.models.User;
-import com.ph.ponto.repository.UserRepository;
+import com.yacacode.backend.config.AwsTools;
+import com.yacacode.backend.models.User;
+import com.yacacode.backend.repository.UserRepository;
 
-import com.ph.ponto.repository.UserRepositoryCustom;
+import com.yacacode.backend.repository.UserRepositoryCustom;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;

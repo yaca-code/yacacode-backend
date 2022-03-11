@@ -1,17 +1,13 @@
-package com.ph.ponto.services.adapters;
+package com.yacacode.backend.services.adapters;
 
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import com.ph.ponto.models.Request;
+import com.yacacode.backend.models.Request;
 
 import java.lang.reflect.Type;
-import java.text.DateFormat;
-import java.text.ParseException;
 import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.TimeZone;
 
 public class RequestAdapter implements JsonSerializer<Request> {
     @Override

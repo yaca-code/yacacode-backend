@@ -1,17 +1,16 @@
-package com.ph.ponto.services;
+package com.yacacode.backend.services;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonObject;
-import com.ph.ponto.models.Request;
-import com.ph.ponto.models.Score;
-import com.ph.ponto.models.User;
-import com.ph.ponto.repository.RequestRepository;
-import com.ph.ponto.repository.RequestRepositoryCustom;
-import com.ph.ponto.repository.ScoreRepository;
-import com.ph.ponto.repository.UserRepository;
-import com.ph.ponto.services.adapters.HibernateProxyTypeAdapter;
-import com.ph.ponto.services.adapters.RequestAdapter;
+import com.yacacode.backend.models.Request;
+import com.yacacode.backend.models.Score;
+import com.yacacode.backend.models.User;
+import com.yacacode.backend.repository.RequestRepository;
+import com.yacacode.backend.repository.RequestRepositoryCustom;
+import com.yacacode.backend.repository.ScoreRepository;
+import com.yacacode.backend.repository.UserRepository;
+import com.yacacode.backend.services.adapters.RequestAdapter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

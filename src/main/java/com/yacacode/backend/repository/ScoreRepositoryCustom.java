@@ -1,11 +1,10 @@
-package com.ph.ponto.repository;
+package com.yacacode.backend.repository;
 
 import javax.persistence.EntityManager;
 
-import com.google.gson.Gson;
-import com.ph.ponto.models.Score;
+import com.yacacode.backend.models.Score;
 
-import com.ph.ponto.models.User;
+import com.yacacode.backend.models.User;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
-package com.ph.ponto.repository;
+package com.yacacode.backend.repository;
 
-import com.ph.ponto.models.Score;
+import com.yacacode.backend.models.Score;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

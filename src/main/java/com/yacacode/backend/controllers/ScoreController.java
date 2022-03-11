@@ -1,6 +1,6 @@
-package com.ph.ponto.controllers;
+package com.yacacode.backend.controllers;
 
-import com.ph.ponto.services.ScoreService;
+import com.yacacode.backend.services.ScoreService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

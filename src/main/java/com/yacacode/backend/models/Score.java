@@ -1,4 +1,4 @@
-package com.ph.ponto.models;
+package com.yacacode.backend.models;
 
 import java.util.Date;
 
@@ -22,8 +22,8 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name="requests")
-public class Request {
+@Table(name="scores")
+public class Score {
 
     @Id
 	@GeneratedValue(strategy=GenerationType.SEQUENCE,generator = "seq_scores")
@@ -31,11 +31,7 @@ public class Request {
 	private Long id;
     
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "score_id")
-    private Score score_id;
-
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "user_id")
+    @JoinColumn(name = "users_id")
     private User user_id;
 
     private Date input;
@@ -46,12 +42,20 @@ public class Request {
 
     private Date exit;
 
-    private String description;
+    private Integer status;
 
     private Boolean active;
 
     private Date created_at;
 
     private Date deleted_at;
+
+    private Integer day;
+
+    private Integer month;
+
+    private Integer year;
+
+    private Integer extra;
 
 }

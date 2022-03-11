@@ -1,8 +1,6 @@
-package com.ph.ponto.repository;
+package com.yacacode.backend.repository;
 
-import com.ph.ponto.models.Request;
-import com.ph.ponto.models.Score;
-import com.ph.ponto.models.User;
+import com.yacacode.backend.models.User;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;

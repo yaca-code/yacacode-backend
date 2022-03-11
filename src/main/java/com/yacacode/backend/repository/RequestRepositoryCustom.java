@@ -1,8 +1,8 @@
-package com.ph.ponto.repository;
+package com.yacacode.backend.repository;
 
-import com.ph.ponto.models.Request;
-import com.ph.ponto.models.Score;
-import com.ph.ponto.models.User;
+import com.yacacode.backend.models.Request;
+import com.yacacode.backend.models.Score;
+import com.yacacode.backend.models.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 

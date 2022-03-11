@@ -1,4 +1,4 @@
-package com.ph.ponto.config;
+package com.yacacode.backend.config;
 
 import java.util.ArrayList;
 

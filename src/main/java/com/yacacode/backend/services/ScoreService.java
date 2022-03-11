@@ -1,12 +1,14 @@
-package com.ph.ponto.services;
+package com.yacacode.backend.services;
 
 import com.google.gson.Gson;
-import com.google.gson.JsonObject;
-import com.ph.ponto.models.Request;
-import com.ph.ponto.models.Score;
-import com.ph.ponto.models.User;
+import com.yacacode.backend.models.Score;
+import com.yacacode.backend.models.User;
 import com.ph.ponto.repository.*;
 
+import com.yacacode.backend.repository.RequestRepositoryCustom;
+import com.yacacode.backend.repository.ScoreRepository;
+import com.yacacode.backend.repository.ScoreRepositoryCustom;
+import com.yacacode.backend.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

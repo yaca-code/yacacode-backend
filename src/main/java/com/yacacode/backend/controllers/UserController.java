@@ -1,8 +1,8 @@
-package com.ph.ponto.controllers;
+package com.yacacode.backend.controllers;
 
-import com.ph.ponto.models.User;
-import com.ph.ponto.repository.UserRepository;
-import com.ph.ponto.services.UserService;
+import com.yacacode.backend.models.User;
+import com.yacacode.backend.repository.UserRepository;
+import com.yacacode.backend.services.UserService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -21,7 +21,7 @@ public class UserController {
 	UserRepository repository;
 
     @Autowired
-	UserService service;
+    UserService service;
 
 	@PostMapping("/auth")
 	@ApiOperation(value = "Authentic a user")
